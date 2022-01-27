@@ -1,0 +1,31 @@
+{
+    "name": "Intellivoid Services",
+    "version": "1.0.0.0",
+    "author": "Zi Xing Narrakas",
+    "organization": "Intellivoid Technologies",
+    "configuration": {
+        "root_path": "/",
+        "localization": {
+            "enabled": false,
+            "primary_localization": "en",
+            "auto_detect_preference": true,
+            "localizations": {}
+        },
+        "favicon": null,
+        "localization_enabled": true,
+        "debugging_mode": false,
+        "framework_signature": true,
+        "application_signature": true,
+        "security_headers": true,
+        "enable_khm": true,
+        "firewall_deny": [],
+        "headers": {}
+    },
+    "runtime_scripts": [],
+    "web_assets": [
+        {"type": "ppm", "name": "primary_assets", "source": "net.intellivoid.dore_template==latest", "path": "assets"}
+    ],
+    "router": [
+        {"method": ["GET"], "path": "", "page": "index", "params": []},
+    ]
+}
