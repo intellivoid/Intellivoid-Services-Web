@@ -16,7 +16,7 @@
         "debugging_mode": false,
         "framework_signature": true,
         "application_signature": true,
-        "security_headers": true,
+        "security_headers": false,
         "enable_khm": true,
         "firewall_deny": [],
         "headers": {}
@@ -26,6 +26,6 @@
         {"type": "ppm", "name": "primary_assets", "source": "net.intellivoid.dore_template==latest", "path": "assets"}
     ],
     "router": [
-        {"method": ["GET"], "path": "", "page": "index", "params": []},
+        {"method": ["GET"], "path": "", "page": "index", "params": []}
     ]
 }
