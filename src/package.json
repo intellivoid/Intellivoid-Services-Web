@@ -1,12 +1,12 @@
 {
     "package": {
-        "package_name": "net.intellivoid.intellivoid_website",
-        "name": "Intellivoid Website",
-        "version": "3.0.0.0",
+        "package_name": "net.intellivoid.services_web",
+        "name": "Intellivoid Services",
+        "version": "1.0.0.0",
         "author": "Zi Xing Narrakas",
         "organization": "Intellivoid Technologies",
-        "description": "The main website for Intellivoid",
-        "url": "https://github.com/intellivoid/Intellivoid-Website",
+        "description": "Intellivoid Services Administration Panel",
+        "url": "https://github.com/intellivoid/Intellivoid-Services-Web",
         "dependencies": [
             {
                 "package": "net.intellivoid.dynamical_web",
@@ -15,9 +15,9 @@
                 "required": true
             },
             {
-                "package": "net.intellivoid.website_template",
+                "package": "net.intellivoid.dore_template",
                 "version": "latest",
-                "source": "default@github/intellivoid/Intellivoid-Website-Template",
+                "source": "default@github/intellivoid/Dore-Template",
                 "required": true
             }
         ],
@@ -30,30 +30,15 @@
     },
     "components": [],
     "files": [
-        "markdown/tos/es.md",
-        "markdown/tos/en.md",
-        "markdown/dev_dav/en.md",
-        "markdown/privacy/es.md",
-        "markdown/privacy/en.md",
-        "markdown/example/es.md",
-        "markdown/example/zh.md",
-        "markdown/example/en.md",
-        "markdown/dev_antiengineer/en.md",
-        "markdown/dev_netkas/en.md",
+        "sections/menu.dyn",
         "sections/footer.dyn",
         "sections/header.dyn",
-        "sections/navigation.dyn",
-        "sections/navigation_dark.dyn",
-        "sections/js_scripts.dyn",
-        "sections/navigation_light.dyn",
+        "sections/javascript.dyn",
+        "sections/navbar.dyn",
         "package.json",
         "languages/en.json",
-        "javascript/main.js.dyn",
-        "pages/team/team_members.json",
-        "pages/team/contents.dyn",
         "pages/index/contents.dyn",
-        "pages/about/contents.dyn",
-        "runtime_scripts/maintenance.dyn",
+        "runtime_scripts/template_settings.dyn",
         "configuration.json"
     ]
 }
