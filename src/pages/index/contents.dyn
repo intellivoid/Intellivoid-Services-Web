@@ -17,30 +17,30 @@
                         <div class="container">
                             <div class="row home-row">
                                 <div class="col-12 d-block d-md-none">
-                                    <a target="_blank" href="/Dashboard.Default.html">
+                                    <a target="_blank" href="#">
                                         <img alt="mobile hero" class="mobile-hero" src="/assets/img/landing-page/home-hero-mobile.png" />
                                     </a>
                                 </div>
 
                                 <div class="col-12 col-xl-4 col-lg-5 col-md-6">
                                     <div class="home-text">
-                                        <div class="display-1">MAGIC IS IN <br />THE DETAILS</div>
+                                        <div class="display-1">INTERNET OF THINGS</div>
                                         <p class="white mb-5">
-                                            Dore is the combination of good design, quality code and attention for details.<br />
-
-                                            <br />
-                                            We used same design language for components, layouts, apps
-                                            and other parts of the template. <br />
-                                            <br />
-                                            Hope you enjoy it!
+                                            Intellivoid Services is a combination of microservices used to power the web
+                                            without the cost of selling your users data.
+                                            <br/><br/>
+                                            Using our own sources, software and technology built from the ground up we
+                                            strive to provide fully functional services to help protect webmasters from
+                                            bad actors and make the development progress a little easier.
                                         </p>
-                                        <a class="btn btn-secondary btn-xl mr-2 mb-2" target="_blank" href="/Dashboard.Default.html">VIEW NOW <i
-                                                    class="simple-icon-arrow-right"></i></a>
-
+                                        <a class="btn btn-secondary btn-xl mr-2 mb-2" target="_blank" href="#">
+                                            Dashboard
+                                            <i class="simple-icon-arrow-right"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-12 col-xl-7 offset-xl-1 col-lg-7 col-md-6  d-none d-md-block">
-                                    <a target="_blank" href="/Dashboard.Default.html">
+                                    <a target="_blank" href="#">
                                         <img alt="hero" src="/assets/img/landing-page/home-hero.png" />
                                     </a>
                                 </div>
@@ -178,121 +178,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="section background">
-                        <div class="container" id="layouts">
-                            <div class="row">
-                                <div class="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                                    <h1>Structures & Layouts</h1>
-                                    <p>
-                                        We did our best to create layouts for various needs that developers might have and best experience
-                                        for users.
-                                        <br>
-                                        They are clean and slick. They function well and look good at the same time.
-
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="row pt-5">
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/menu-default.jpg">
-                                    <h4 class="text-center">Menu Default</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/menu-subhidden.jpg">
-                                    <h4 class="text-center">Menu Subhidden</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/menu-hidden.jpg">
-                                    <h4 class="text-center">Menu Hidden</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/image-list.jpg">
-                                    <h4 class="text-center">Image List</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/thumb-list.jpg">
-                                    <h4 class="text-center">Thumb List</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/data-list.jpg">
-                                    <h4 class="text-center">Data List</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/details.jpg">
-                                    <h4 class="text-center">Details</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5 semi-rounded">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/authentication.jpg">
-                                    <h4 class="text-center">Authentication</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/search-result.jpg">
-                                    <h4 class="text-center">Search Results</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/spa.jpg">
-                                    <h4 class="text-center">Single Page Application</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded" src="/assets/img/landing-page/layouts/data-list-app-menu-hidden.jpg">
-                                    <h4 class="text-center">Data List App Menu Hidden</h4>
-                                </div>
-
-                                <div class="col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-5">
-                                    <img class="img-fluid border-radius depth-2 mb-3 semi-rounded " src="/assets/img/landing-page/layouts/tabs.jpg">
-                                    <h4 class="text-center">Tabs</h4>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
 
-                    <div class="section mb-0">
-                        <div class="container" id="components">
-
-                            <div class="row mb-5">
-                                <div class="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                                    <h1>Components</h1>
-                                    <p>
-                                        We used most popular and well managed open source components with bootstrap components. Combined them
-                                        into even more useful ones. Themed them with same design principles and created a design harmony
-                                        between components and layouts.
-                                        <br>
-                                        <br>
-                                        From carousels to charts, switches to list we tried to provide components that we like to use on our
-                                        development processes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <img class="components-image mb-5 pb-5" src="/assets/img/landing-page/components.jpg">
-                    </div>
 
 
-                    <div class="section background">
+                    <div class="section background mb-0 pb-0">
                         <div class="container" id="apps">
                             <div class="row">
                                 <div class="col-12 offset-0 col-lg-8 offset-lg-2 text-center mb-4">
@@ -360,249 +255,6 @@
                         </div>
                     </div>
 
-
-
-                    <div class="section mb-0">
-                        <div class="container" id="themes">
-
-                            <div class="row mb-5">
-                                <div class="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                                    <h1>Themes</h1>
-                                    <p>
-                                        We carefully choosed colors and created 10 different themes with dark and light versions. You may also
-                                        create your own themes easily since all the theme related styling is managed by Sass variables.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="row pt-3">
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Navy Blue</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left bluenavy-light-1"></div>
-                                        <div class="color-center bluenavy-light-2"></div>
-                                        <div class="color-right bluenavy-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left bluenavy-dark-1"></div>
-                                        <div class="color-center bluenavy-dark-2"></div>
-                                        <div class="color-right bluenavy-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Olympic Blue</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left blueolympic-light-1"></div>
-                                        <div class="color-center blueolympic-light-2"></div>
-                                        <div class="color-right blueolympic-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left blueolympic-dark-1"></div>
-                                        <div class="color-center blueolympic-dark-2"></div>
-                                        <div class="color-right blueolympic-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Yale Blue</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left blueyale-light-1"></div>
-                                        <div class="color-center blueyale-light-2"></div>
-                                        <div class="color-right blueyale-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left blueyale-dark-1"></div>
-                                        <div class="color-center blueyale-dark-2"></div>
-                                        <div class="color-right blueyale-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Moss Green</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left greenmoss-light-1"></div>
-                                        <div class="color-center greenmoss-light-2"></div>
-                                        <div class="color-right greenmoss-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left greenmoss-dark-1"></div>
-                                        <div class="color-center greenmoss-dark-2"></div>
-                                        <div class="color-right greenmoss-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Lime Green</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left greenlime-light-1"></div>
-                                        <div class="color-center greenlime-light-2"></div>
-                                        <div class="color-right greenlime-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left greenlime-dark-1"></div>
-                                        <div class="color-center greenlime-dark-2"></div>
-                                        <div class="color-right greenlime-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Carrot Orange</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left carrotorange-light-1"></div>
-                                        <div class="color-center carrotorange-light-2"></div>
-                                        <div class="color-right carrotorange-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left carrotorange-dark-1"></div>
-                                        <div class="color-center carrotorange-dark-2"></div>
-                                        <div class="color-right carrotorange-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Ruby Red</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left rubyred-light-1"></div>
-                                        <div class="color-center rubyred-light-2"></div>
-                                        <div class="color-right rubyred-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left rubyred-dark-1"></div>
-                                        <div class="color-center rubyred-dark-2"></div>
-                                        <div class="color-right rubyred-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Monster Purple</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left monsterpurple-light-1"></div>
-                                        <div class="color-center monsterpurple-light-2"></div>
-                                        <div class="color-right monsterpurple-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left monsterpurple-dark-1"></div>
-                                        <div class="color-center monsterpurple-dark-2"></div>
-                                        <div class="color-right monsterpurple-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Steel Grey</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left steelgrey-light-1"></div>
-                                        <div class="color-center steelgrey-light-2"></div>
-                                        <div class="color-right steelgrey-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left steelgrey-dark-1"></div>
-                                        <div class="color-center steelgrey-dark-2"></div>
-                                        <div class="color-right steelgrey-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-                                <div class="col-12 text-center mb-3">
-                                    <h4 class="text-center">Granola Yellow</h4>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left granolayellow-light-1"></div>
-                                        <div class="color-center granolayellow-light-2"></div>
-                                        <div class="color-right granolayellow-light-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="depth-2 color-container">
-                                        <div class="color-left granolayellow-dark-1"></div>
-                                        <div class="color-center granolayellow-dark-2"></div>
-                                        <div class="color-right granolayellow-dark-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-                                <div class="col-12 mb-5">
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="section background background-no-bottom mb-0 pb-0">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 offset-0 col-lg-8 offset-lg-2 text-center">
-                                    <h1>Enjoying so Far?</h1>
-                                    <p>
-                                        Purchase Dore to get a fresh start with your new project.
-                                    </p>
-                                </div>
-
-                                <div class="col-12 offset-0 col-lg-6 offset-lg-3 newsletter-input-container">
-                                    <div class="text-center mb-3">
-                                        <a class="btn btn-secondary btn-xl" target="_top" href="https://1.envato.market/5kAb">BUY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="section footer mb-0">
                         <?PHP \DynamicalWeb\Html::importSection('frontend_footer_scrollup'); ?>

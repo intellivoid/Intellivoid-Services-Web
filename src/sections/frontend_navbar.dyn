@@ -1,9 +1,16 @@
-<li class="nav-item"><a href="#features" class="scrollTo">FEATURES</a></li>
-<li class="nav-item"><a href="#layouts" class="scrollTo">LAYOUTS</a></li>
-<li class="nav-item"><a href="#components" class="scrollTo">COMPONENTS</a></li>
-<li class="nav-item"><a href="#apps" class="scrollTo">APPS</a></li>
-<li class="nav-item"><a href="#themes" class="scrollTo">THEMES</a></li>
+<li class="nav-item">
+    <a href="#" class="scrollTo">Intellivoid</a>
+</li>
+<li class="nav-item">
+    <a href="#" class="scrollTo">Documentation</a>
+</li>
+<li class="nav-item">
+    <a href="#" class="scrollTo">Terms</a>
+</li>
+<li class="nav-item">
+    <a href="#" class="scrollTo">Privacy</a>
+</li>
 <li class="nav-item pl-4">
     <a class="btn btn-outline-semi-light btn-sm pr-4 pl-4" target="_top"
-       href="https://1.envato.market/5kAb">BUY</a>
+       href="https://1.envato.market/5kAb">Login/Register</a>
 </li>

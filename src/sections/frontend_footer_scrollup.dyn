@@ -6,7 +6,7 @@
         </div>
         <div class="col-12 text-center footer-content">
             <a href="#home" class="scrollTo">
-                <img class="footer-logo" alt="footer logo" src="logos/white-full.svg" />
+                <img class="footer-logo" alt="footer logo" src="/assets/logos/white-full.svg" />
             </a>
         </div>
     </div>
