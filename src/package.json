@@ -31,13 +31,21 @@
     "components": [],
     "files": [
         "sections/menu.dyn",
+        "sections/frontend_navbar.dyn",
         "sections/footer.dyn",
+        "sections/frontend_footer_scrollup.dyn",
+        "sections/frontend_main_menu.dyn",
         "sections/header.dyn",
+        "sections/frontend_header.dyn",
         "sections/javascript.dyn",
         "sections/navbar.dyn",
+        "sections/frontend_footer.dyn",
+        "sections/frontend_mobile_menu.dyn",
+        "sections/frontend_javascript.dyn",
         "package.json",
         "languages/en.json",
         "pages/index/contents.dyn",
+        "pages/dashboard/contents.dyn",
         "runtime_scripts/template_settings.dyn",
         "configuration.json"
     ]

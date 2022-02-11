@@ -1,0 +1,14 @@
+<?php
+    use DynamicalWeb\DynamicalWeb;
+?>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/font/iconsmind-s/css/iconsminds.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/font/simple-line-icons/css/simple-line-icons.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/vendor/bootstrap-stars.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/vendor/bootstrap.min.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/vendor/owl.carousel.min.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/vendor/bootstrap-stars.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/vendor/video-js.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/dore.light.bluenavy.min.css'); ?>"/>
+<link rel="stylesheet" href="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/css/main.css'); ?>"/>

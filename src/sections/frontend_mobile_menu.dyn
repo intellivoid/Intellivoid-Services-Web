@@ -1,0 +1,8 @@
+<div class="mobile-menu">
+    <a href="#home" class="logo-mobile scrollTo">
+        <span></span>
+    </a>
+    <ul class="navbar-nav">
+        <?PHP \DynamicalWeb\Html::importSection('frontend_navbar'); ?>
+    </ul>
+</div>

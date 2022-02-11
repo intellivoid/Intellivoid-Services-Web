@@ -1,0 +1,8 @@
+<div class="container copyright pt-5 pb-5">
+    <div class="row">
+        <div class="col-12"></div>
+        <div class="col-12 text-center">
+            <p class="mb-0">2017-<?PHP \DynamicalWeb\Html::print(date('Y')); ?> © Intellivoid Technologies</p>
+        </div>
+    </div>
+</div>

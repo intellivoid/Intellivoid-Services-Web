@@ -1,0 +1,13 @@
+<?php
+    use DynamicalWeb\DynamicalWeb;
+?>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/bootstrap.bundle.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/owl.carousel.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/jquery.barrating.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/landing-page/headroom.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/landing-page/jQuery.headroom.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/landing-page/jquery.scrollTo.min.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/vendor/landing-page/jquery.autoellipsis.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/dore.scripts.landingpage.js'); ?>"></script>
+<script src="<?PHP DynamicalWeb::printAssetRoute('primary_assets', '/js/scripts.js'); ?>"></script>

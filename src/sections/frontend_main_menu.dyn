@@ -1,0 +1,14 @@
+<nav class="landing-page-nav">
+    <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-logo pull-left scrollTo" href="#home">
+            <span class="white"></span>
+            <span class="dark"></span>
+        </a>
+        <ul class="navbar-nav d-none d-lg-flex flex-row">
+            <?PHP \DynamicalWeb\Html::importSection('frontend_navbar'); ?>
+        </ul>
+        <a href="#" class="mobile-menu-button">
+            <i class="simple-icon-menu"></i>
+        </a>
+    </div>
+</nav>
