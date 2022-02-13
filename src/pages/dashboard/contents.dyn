@@ -1,10 +1,9 @@
 <?php
     \DynamicalWeb\Html::importScript('require_auth');
-
-    require_authentication('index');
+    require_authentication();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?PHP \DynamicalWeb\Html::print(DYNAMICAL_SELECTED_LOCALIZATION_ISO_CODE); ?>">
 
     <head>
         <title>Intellivoid Services - Dashboard</title>

@@ -72,7 +72,7 @@
         "sections/frontend_mobile_menu.dyn",
         "sections/frontend_javascript.dyn",
         "package.json",
-        "languages/en.json",
+        "localization/en.json",
         "pages/logout/contents.dyn",
         "pages/index/contents.dyn",
         "pages/index/scripts/callbacks.dyn",

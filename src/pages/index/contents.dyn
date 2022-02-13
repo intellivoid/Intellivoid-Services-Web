@@ -16,7 +16,7 @@
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?PHP \DynamicalWeb\Html::print(DYNAMICAL_SELECTED_LOCALIZATION_ISO_CODE); ?>">
 
     <head>
         <?PHP \DynamicalWeb\Html::importSection('frontend_header'); ?>

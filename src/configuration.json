@@ -6,10 +6,12 @@
     "configuration": {
         "root_path": "/",
         "localization": {
-            "enabled": false,
+            "enabled": true,
             "primary_localization": "en",
             "auto_detect_preference": true,
-            "localizations": {}
+            "localizations": {
+                "en": "localization/en.json"
+            }
         },
         "favicon": "favicon/favicon.ico",
         "localization_enabled": true,
