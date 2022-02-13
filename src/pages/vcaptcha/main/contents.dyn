@@ -1,13 +1,8 @@
-<?php
-    \DynamicalWeb\Html::importScript('require_auth');
-
-    require_authentication('index');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
-        <title>Intellivoid Services - Dashboard</title>
+        <title>Intellivoid Services - vCaptcha</title>
         <?PHP \DynamicalWeb\Html::importSection('header'); ?>
     </head>
 

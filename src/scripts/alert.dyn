@@ -1,0 +1,18 @@
+<?php
+
+    if(function_exists('render_alert') == false)
+    {
+        /**
+         * Renders an alert
+         *
+         * @param string $text
+         * @param string $type
+         * @return void
+         */
+        function render_alert(string $text, string $type)
+        {
+            print("<div class=\"alert alert-$type\" role=\"alert\">");
+            \DynamicalWeb\Html::print($text);
+            print("</div>");
+        }
+    }

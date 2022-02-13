@@ -1,0 +1,28 @@
+<?php
+
+    use DynamicalWeb\Cookies;
+    use DynamicalWeb\DynamicalWeb;
+
+    if(WEB_ACCOUNT_AUTHENTICATED == false)
+    {
+        $RequestHandler = DynamicalWeb::activeRequestHandler();
+        $RequestHandler->Redirect = true;
+        $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index');
+        $RequestHandler->execute();
+    }
+
+    $Cookie = Cookies::getCookieStorage('services_session');
+
+    $Cookie->Data['cache_refresh'] = 0;
+    $Cookie->Data['authenticated'] = false;
+    $Cookie->Data['account_pubid'] = null;
+    $Cookie->Data['account_id'] = null;
+    $Cookie->Data['account_email'] = null;
+    $Cookie->Data['account_username'] = null;
+
+    Cookies::updateCookieStorage($Cookie);
+
+    $RequestHandler = DynamicalWeb::activeRequestHandler();
+    $RequestHandler->Redirect = true;
+    $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index');
+    $RequestHandler->execute();

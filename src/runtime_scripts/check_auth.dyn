@@ -1,0 +1,36 @@
+<?php
+
+    use DynamicalWeb\Cookies;
+    use DynamicalWeb\Exceptions\CookieStorageNotFoundException;
+    use DynamicalWeb\Objects\Cookie;
+
+    try
+    {
+        // Get the cookie storage
+        $CookieStorage = Cookies::getCookieStorage('services_session');
+    }
+    catch(CookieStorageNotFoundException $e)
+    {
+        // If not found, create it.
+        $Cookie = new Cookie('services_session');
+        $Cookie->ExpiryTime = time() + 86400;
+        $CookieStorage = Cookies::createCookieStorage($Cookie, false);
+        $CookieStorage->Data = array(
+            'authenticated' => false,
+            'account_pubid' => null,
+            'account_id' => null,
+            'account_username' => null,
+            'access_token' => null,
+            'cache' => array(),
+            'cache_refresh' => 0
+        );
+        Cookies::updateCookieStorage($CookieStorage);
+    }
+
+    Cookies::updateCookieStorage($CookieStorage);
+
+    define('WEB_ACCOUNT_AUTHENTICATED', $CookieStorage->Data['authenticated']);
+    define('WEB_ACCOUNT_PUBID', $CookieStorage->Data['account_pubid']);
+    define('WEB_ACCOUNT_ID', $CookieStorage->Data['account_id']);
+    define('WEB_ACCOUNT_USERNAME', $CookieStorage->Data['account_username']);
+    define('WEB_ACCESS_TOKEN', $CookieStorage->Data['access_token']);

@@ -1,0 +1,95 @@
+<?php
+
+    use COASniffle\COASniffle;
+    use COASniffle\Exceptions\BadResponseException;
+    use COASniffle\Exceptions\CoaAuthenticationException;
+    use COASniffle\Exceptions\RequestFailedException;
+    use COASniffle\Exceptions\UnsupportedAuthMethodException;
+    use DynamicalWeb\Cookies;
+    use DynamicalWeb\DynamicalWeb;
+
+    if(WEB_ACCOUNT_AUTHENTICATED == false)
+    {
+        if(isset($_GET['access_token']))
+        {
+            process_coa_authentication();
+        }
+    }
+
+    function process_coa_authentication()
+    {
+        /** @var COASniffle $COASniffle */
+        $COASniffle = DynamicalWeb::getMemoryObject('coasniffle');
+
+        try
+        {
+            $UserInformation = $COASniffle->getCOA()->getUser($_GET['access_token']);
+        }
+        catch (BadResponseException $e)
+        {
+            $RequestHandler = DynamicalWeb::activeRequestHandler();
+            $RequestHandler->Redirect = true;
+            $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index', ['callback' => '101']);
+            $RequestHandler->execute();
+        }
+        catch (CoaAuthenticationException $e)
+        {
+            $RequestHandler = DynamicalWeb::activeRequestHandler();
+            $RequestHandler->Redirect = true;
+            $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index', ['callback' => '102', 'coa_error' => (string)$e->getCode()]);
+            $RequestHandler->execute();
+        }
+        catch (RequestFailedException $e)
+        {
+            $RequestHandler = DynamicalWeb::activeRequestHandler();
+            $RequestHandler->Redirect = true;
+            $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index', ['callback' => '103']);
+            $RequestHandler->execute();
+        }
+        catch (UnsupportedAuthMethodException $e)
+        {
+            $RequestHandler = DynamicalWeb::activeRequestHandler();
+            $RequestHandler->Redirect = true;
+            $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index', ['callback' => '104']);
+            $RequestHandler->execute();
+        }
+        catch(Exception $e)
+        {
+            $RequestHandler = DynamicalWeb::activeRequestHandler();
+            $RequestHandler->Redirect = true;
+            $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('index', ['callback' => '100']);
+            $RequestHandler->execute();
+        }
+
+        $Cookie = Cookies::getCookieStorage('services_session');
+        $Cookie->Data['authenticated'] = true;
+        $Cookie->Data['account_pubid'] = $UserInformation->PublicID;
+        $Cookie->Data['account_id'] = $UserInformation->Tag;
+        $Cookie->Data['account_username'] = $UserInformation->Username;
+        $Cookie->Data['access_token'] = $_GET['access_token'];
+
+        // Force refresh cache
+        if(isset($Cookie->Data['cache_refresh']) == true)
+        {
+            $Cookie->Data['cache_refresh'] = 0;
+        }
+
+        Cookies::updateCookieStorage($Cookie);
+        $Redirect = "None";
+
+        if(isset($_GET['redirect']))
+        {
+            $Redirect = $_GET['redirect'];
+        }
+
+        switch($Redirect)
+        {
+            default:
+            case 'dashboard':
+                $RequestHandler = DynamicalWeb::activeRequestHandler();
+                $RequestHandler->Redirect = true;
+                $RequestHandler->RedirectLocation = DynamicalWeb::getRoute('dashboard');
+                $RequestHandler->execute();
+                break;
+        }
+    }
